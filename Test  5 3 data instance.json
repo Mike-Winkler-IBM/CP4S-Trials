@@ -1,0 +1,41 @@
+[
+    {
+        "SourcePort": 567,
+        "DestinationPort": 102,
+        "SourceIpV4": "192.168.122.84",
+        "DestinationIpV4": "10.2.0.1",
+        "Url": "www.testaddress.com"
+        "Size": "1056"
+        "MACAddress": "AA:11:BB:22:CC:33"
+        "hashes.'SHA-256'": "e7127dea8edf3382c3b033ee7271b0ee787c77adb906bfe6d771d5299be0aea1"
+		"hashes.'MD5'": ""a5537d53cc3ba26129ceb19813982aee"
+		"name":"GoodFile.DOCX"
+		"payload_bin": "A bunch of stuff showing that this is a GOOD file"
+    },
+    {
+        "SourcePort": 411,
+        "DestinationPort": 108,
+        "SourceIpV4": "192.168.122.99",
+        "DestinationIpV4": "10.3.0.1",
+        "Url": "www.badfile.com"
+        "Size": "2088"
+        "MACAddress": "AB:12:BA:21:CD:31"
+		"hashes.'SHA-256'": "37FB026B982506CC371BCE96B4BE268153D597BEADA522F97E9772A256FC629A"
+		"hashes.'MD5'": ""7ae96725d34abb43fdaa4b7874ed8df3"
+		"name":"EvilFile.DOCX"
+		"payload_bin":"A bunch of stuff showing that this is an EVIL file"
+	},
+	{
+        "SourcePort": 8080,
+        "DestinationPort": 65400,
+        "SourceIpV4": "192.81.208.169",
+        "DestinationIpV4": "172.16.75.45",
+        "Url": "www.EvilURL.com"
+        "Size": "5188"
+        "MACAddress": "AC:13:BC:23:CA:32"
+		"hashes.'SHA-256'": "0fa3091ed84f3a911f7023289145da7f6c9bed070d69dfc02a42449a599de02a"
+		"hashes.'MD5'": ""ca674a1b92ccd0523efbdf27241dee7a"
+		"name":"Driveby.vbs"
+		"payload_bin":"A bunch of stuff showing that this is an EVIL  driveby site"
+	}
+]
